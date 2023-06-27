@@ -7,9 +7,9 @@ import { NameLabel, AddContactBtn, Input } from './Phonebook.styled';
 export default function Phonebook({ onSubmit }) {
   const [name, setName] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
-  const [img, setImg] = useState(
-    'https://cdn-icons-png.flaticon.com/512/2922/2922506.png'
-  );
+  // const [img, setImg] = useState(
+  //   'https://cdn-icons-png.flaticon.com/512/2922/2922506.png'
+  // );
 
   const nameInputId = nanoid();
   const phoneNumberInputId = nanoid();
@@ -41,7 +41,7 @@ export default function Phonebook({ onSubmit }) {
   const resetSubmit = () => {
     setName('');
     setPhoneNumber('');
-    setImg('');
+    // setImg('');
   };
   return (
     <div>
