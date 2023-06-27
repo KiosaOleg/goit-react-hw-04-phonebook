@@ -36,7 +36,6 @@ ContactList.propTypes = {
       name: PropTypes.string.isRequired,
       phoneNumber: PropTypes.string.isRequired,
       id: PropTypes.string.isRequired,
-      img: PropTypes.string,
     })
   ),
   deleteContact: PropTypes.func.isRequired,
